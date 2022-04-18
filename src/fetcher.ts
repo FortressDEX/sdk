@@ -10,7 +10,7 @@ import { ChainId } from './constants'
 import { Token } from './entities/token'
 
 let TOKEN_DECIMALS_CACHE: { [chainId: number]: { [address: string]: number } } = {
-  
+
 }
 
 /**
@@ -31,7 +31,7 @@ export abstract class Fetcher {
    * @param name optional name of the token
    */
   public static async fetchTokenData(
-    chainId: ChainId = ChainId.AVALANCHE,
+    chainId: ChainId = ChainId.POLYGON,
     address: string,
     provider = getDefaultProvider(getNetwork(chainId)),
     symbol?: string,

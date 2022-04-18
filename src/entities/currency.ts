@@ -21,7 +21,7 @@ export class Currency {
 
   public static readonly CURRENCY = {
     [ChainId.FUJI]: new Currency(18, 'AVAX', 'Avalanche'),
-    [ChainId.AVALANCHE]: new Currency(18, 'AVAX', 'Avalanche'),
+    [ChainId.POLYGON]: new Currency(18, 'MATIC', 'Polygon'),
     [ChainId.WAGMI]: new Currency(18, 'WGM', 'Wagmi'),
   }
 

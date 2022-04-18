@@ -1,17 +1,17 @@
 {
-  "name": "@pangolindex/sdk",
+  "name": "@hollis/sdk",
   "license": "MIT",
   "version": "2.0.0",
-  "description": "🛠 An SDK for building applications on top of Pangolin.",
+  "description": "🛠 An SDK for building applications on top of Hollis.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pangolindex/sdk",
+  "repository": "https://github.com/fortressdex/sdk",
   "keywords": [
-    "pangolin",
-    "avalanche"
+    "hollis",
+    "polygon"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pangolindex/exchange-contracts": "^1.0.1",
+    "@hollis/exchange-contracts": "2.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
