@@ -1,5 +1,5 @@
-# Pangolin SDK
-This repo contains tools for developing with [Pangolin](pangolin.exchange).
+# Hollis SDK
+This repo contains tools for developing with [Hollis](Hollis.exchange).
 
 ## Running
 This project uses standard npm and yarn workflows.
