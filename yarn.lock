@@ -1247,9 +1247,9 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@pangolindex/exchange-contracts@^1.0.1":
+"@safahi/exchange-contracts@^1.0.1":
   version "1.0.1"
-  resolved "https://registry.npmjs.org/@pangolindex/exchange-contracts/-/exchange-contracts-1.0.1.tgz"
+  resolved "https://registry.npmjs.org/@safahi/exchange-contracts/-/exchange-contracts-1.0.1.tgz"
   integrity sha512-lvL2y1xVsAh1S+fC3RCp9+Z70MOtydaRvBD9AZAJ4ZUajvMtDhTzCAAZAf2op43149JMWAytWYOrAbCSUeaw7Q==
 
 "@rollup/plugin-commonjs@^11.0.0":
