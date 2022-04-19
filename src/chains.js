@@ -756,11 +756,32 @@ export const POLYGON_MAINNET = {
     symbol: 'MATIC',
     mainnet: true,
     logo: 'https://raw.githubusercontent.com/pangolindex/sdk/master/src/images/chains/matic.png',
-    pangolin_is_live: false,
+    pangolin_is_live: true,
     tracked_by_debank: true,
     supported_by_gelato: true,
     rpc_uri: 'https://polygon-rpc.com',
     coingecko_id: 'polygon-pos',
+    contracts: {
+        png: '0xe31c4a128b340267C893f31a0f5987c2F1A742B4',
+        factory: '0x2276E7AC85d712ADf4128a5a62D0Fa5F1265fd86',
+        router: '0x4704dBc771FC9c62c2AE99760090533c7a526D6B',
+        wrapped_native_token: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+        local_multisig: '0x29cB661C1e9D59C882300843198aa18983807B9D',
+        community_treasury: '0x0f85716B87C3B1fE231E491A7c08b7971dd21349',
+        treasury_vester: '0x51624a3094cC14C599dD83a1C857e27CAB1FE569',
+        mini_chef: '0x7EB91dD44e25b175AD4a1F4bdaD2205D81617750',
+        airdrop: '0x9214bff683c96ecfbF69b592ca9aC6CeFA62fa8D',
+        timelock: '0xBB51AAF1f63fA275FEe345C105d4C352C34CF725',
+        governor: '0xb0Ff2b1047d9E8d294c2eD798faE3fA817F43Ee1',
+        migrator: '0x4b23Aa72A1214d0E4fd3f2c8Da7C6ba660F7483C',
+        staking: [
+            {
+                address: '0x88afdaE1a9F58Da3E68584421937E5F564A0135b',
+                active: true,
+                reward_token: '0x60781C2586D68229fde47564546784ab3fACA982',
+            }
+        ]
+    },
     nativeCurrency: {
         name: 'Polygon',
         symbol: 'MATIC',
