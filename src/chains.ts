@@ -1168,7 +1168,7 @@ export const OASIS_TESTNET: Chain = {
 }
 export const CHAINS: { [chainId in ChainId ]: Chain } = {
   [ChainId.FUJI]: AVALANCHE_FUJI,
-  [ChainId.AVALANCHE]: AVALANCHE_MAINNET,
+  [ChainId.POLYGON]: POLYGON_MAINNET,
   [ChainId.WAGMI]: WAGMI_FUJI_SUBNET,
 }
 

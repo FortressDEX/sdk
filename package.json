@@ -8,7 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/fortressdex/sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortressdex/sdk.git"
+  },
   "keywords": [
     "hollis",
     "polygon"
@@ -55,5 +58,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fortressdex/sdk/issues"
+  },
+  "homepage": "https://github.com/fortressdex/sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
